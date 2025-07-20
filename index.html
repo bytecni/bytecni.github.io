@@ -58,7 +58,9 @@
     }
 
     .whatsapp-button {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
       background-color: #25d366;
       color: white;
       padding: 12px 20px;
@@ -71,6 +73,11 @@
 
     .whatsapp-button:hover {
       background-color: #1da851;
+    }
+
+    .whatsapp-button img {
+      width: 20px;
+      height: 20px;
     }
 
     .services {
@@ -175,7 +182,8 @@
       <h2>¿Necesitas ayuda con tu PC?</h2>
       <p>Brindamos asistencia remota segura y efectiva para resolver problemas técnicos, optimizar tu equipo y mantenerlo protegido. Sin complicaciones, sin demoras.</p>
       <a class="whatsapp-button" href="https://wa.me/51934666213" target="_blank">
-        📱 Contáctanos por WhatsApp
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp icon">
+        Contáctanos por WhatsApp
       </a>
     </div>
   </section>
@@ -214,8 +222,10 @@
   <section class="contacto">
     <h2>Contacto</h2>
     <p>📞 Teléfono: <strong>934 666 213</strong></p>
-    <p>📱 WhatsApp: <a href="https://wa.me/51934666213" target="_blank">Enviar mensaje</a></p>
-    <p>📧 Correo: <a href="mailto:bizcown@outlook.com">bizcown@outlook.com</a></p>
+    <p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" width="20" height="20" style="vertical-align: middle; margin-right: 5px;" alt="WhatsApp">
+      <a href="https://wa.me/51934666213" target="_blank">Enviar mensaje</a>
+    </p>
   </section>
 
   <footer>
